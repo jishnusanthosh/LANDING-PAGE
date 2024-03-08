@@ -1,0 +1,127 @@
+
+.modal-content {
+    background-color: #ffffff;
+}
+
+.modal-content h5 {
+    color: #2c2d5b;
+}
+
+.btn-primary {
+    color: #ffffff;
+    background-color: #2c2d5b;
+    border-color: #2c2d5b;
+}
+
+.btn-secondary {
+    color: #ffffff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.nav-item:hover .nav-link,
+.nav-item.active .nav-link {
+    color: #F67366;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    text-align: center;
+    text-transform: capitalize;
+  }
+ 
+  .placeholder-box {
+    display: flex;
+    padding-top: 15px;
+    flex-direction: column;
+    color: var(--text-2, #979797);
+    white-space: nowrap;
+    flex-grow: 1;
+    flex-basis: 0%;
+  }
+ 
+  .placeholder-border {
+    border-radius: 12px;
+    border-color: rgba(151, 151, 151, 1);
+    border-style: solid;
+    border-width: 1px;
+    background-color: var(--white, #fff);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: start;
+    padding: 0 80px 24px 16px;
+  }
+  
+  .placeholder-border-label {
+    justify-content: center;
+    background-color: var(--white, #fff);
+    z-index: 10;
+    margin-top: -15px;
+    padding: 8px;
+    font: 500 14px  sans-serif;
+  }
+ 
+  .placeholder-label {
+    display: flex;
+    margin-top: 8px;
+    gap: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Lato, sans-serif;
+    flex-grow: 1;
+
+  }
+ 
+  .img {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+  }
+ 
+  .btn-checkPrice {
+   
+    border-radius: 12px;
+    background-color: var(--simblue, #2c2d5b);
+    color: var(--white, #fff);
+    flex-grow: 1;
+    font: 800 14px Lato, sans-serif;
+  }
+ 
+  .div-18 {
+   
+ 
+    border-radius: 12px;
+    background-color: #2c2d5b;
+    color: #fff;
+    white-space: nowrap;
+    padding: 28px 60px;
+    font-weight: 800;
+    font-size: 14px;
+    font-family: Lato, sans-serif;
+    border: none; /* Optional: If you want to remove the button border */
+    cursor: pointer; /* Optional: Add cursor pointer on hover */
+}
+
+.btn-circle {
+    border-radius: 100%;
+    background-color: white;
+}
+
+.text-blue {
+    color: #2c2d5b;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+
+
